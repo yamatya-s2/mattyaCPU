@@ -8,6 +8,11 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <div class="tab_button">
+    <button class="tab_button_editor" onclick="openTab('editor')">Editor</button>
+    <button class="tab_button_asm" onclick="openTab('asm')">Assembly</button>
+    <button class="tab_button_cpu" onclick="openTab('cpu')">CPU</button>
+</div>
  <!--エミュレーター -->
 <div id="tab_editor" class="tab">
     <div id="editor"></div>
@@ -18,7 +23,7 @@
 <div id="tab_asm" class="tab">
 </div>
 <!--CPUエミュレーター -->
-<div id="tab_CPU" class="tab">
+<div id="tab_cpu" class="tab">
 </div>
 
 </body>
