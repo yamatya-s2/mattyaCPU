@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <title>CPUエディター</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
     <script src="main.js"></script>
+
 </head>
 <body>
     <div class="tab_button">
-    <button class="tab_button_editor" onclick="openTab('editor')">Editor</button>
-    <button class="tab_button_asm" onclick="openTab('asm')">Assembly</button>
-    <button class="tab_button_cpu" onclick="openTab('cpu')">CPU</button>
+    <button class="tab_button_editor" onclick="change_tab(1)">Editor</button>
+    <button class="tab_button_asm" onclick="change_tab(2)">Assembly</button>
+    <button class="tab_button_cpu" onclick="change_tab(3)">CPU</button>
 </div>
- <!--エミュレーター -->
+
 <div id="tab_editor" class="tab">
+          <input type="file" name="test" id="editor_file" accept=".asm,text/plain">
     <div id="editor"></div>
-    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
 </div>
     
 <!--アセンブリ出力 -->
