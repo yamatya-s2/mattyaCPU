@@ -1,0 +1,21 @@
+.tab {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    position: absolute;
+}
+
+/* 位置だけ個別指定 */
+#tab_editor {
+    left: 20px;
+    top: 20px;
+}
+
+#tab_asm {
+    left: 550px;
+    top: 20px;
+}
+#tab_cpu{
+    left: 1080px;
+    top: 20px;
+}
