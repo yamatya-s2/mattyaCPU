@@ -4,7 +4,11 @@
     border: 1px solid #ccc;
     position: absolute;
 }
-
+#editor {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
 /* 位置だけ個別指定 */
 #tab_editor {
     left: 20px;
