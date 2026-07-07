@@ -10,11 +10,19 @@
     </style>
 </head>
 <body>
-
-<div id="editor"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
-<script src="main.js"></script>
+ <!--エミュレーター -->
+<div id="tab_editor">
+    <div id="editor"></div>
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.52.2/min/vs/loader.js"></script>
+    <script src="main.js"></script>
+</div>
+    
+<!--アセンブリ出力 -->
+<div id="tab_asm">
+</div>
+<!--CPUエミュレーター -->
+<div id="tab_CPU">
+</div>
 
 </body>
 </html>
