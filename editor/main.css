@@ -22,3 +22,32 @@
     left: 1080px;
     top: 20px;
 }
+.tabs {
+    display: flex;
+}
+
+.tab_button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+
+.tab_button:hover {
+    background: #ddd;
+}
+
+
+.tab_content {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+
+/* 最初に表示 */
+#editor {
+    display: block;
+}
